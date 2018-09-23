@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1039" height="894" viewBox="0 0 1039 894"><defs><style>
+.cls-1 {fill: #002a46;}.cls-1, .cls-2 {fill-rule: evenodd;}.cls-2 {fill: #ab1d21;}
+.wing{transform-origin:50%;}
+.wing.lg{animation:wing-rotate-lg .7s linear;}
+@keyframes wing-rotate-lg{0%,25%{opacity:0;}25%{transform:rotate(10deg);}70%{opacity:1;}}
+.wing.top.med{animation:wing-top-rotate-med 1.25s linear;}
+.wing.top.sm{animation:wing-top-rotate-sm 1.5s linear;}
+@keyframes wing-top-rotate-med{0%,55%{opacity:0;}45%{transform:translate(-50px);}80%{opacity:1;}}
+@keyframes wing-top-rotate-sm{0%,65%{opacity:0;}55%{transform:translate(-50px);}100%{opacity:1;}}
+.wing.right.med{animation:wing-right-rotate-med 1.25s linear;}
+.wing.right.sm{animation:wing-right-rotate-sm 1.5s linear;}
+@keyframes wing-right-rotate-med{0%,55%{opacity:0;}45%{transform:translate(-1%,-50px);}80%{opacity:1;}}
+@keyframes wing-right-rotate-sm{0%,65%{opacity:0;}55%{transform:translate(-1%,-50px);}100%{opacity:1;}}
+.wing.left.med{animation:wing-left-rotate-med 1.25s linear;}
+.wing.left.sm{animation:wing-left-rotate-sm 1.5s linear;}
+@keyframes wing-left-rotate-med{0%,55%{opacity:0;}45%{transform:translate(-1.5%,50px);}80%{opacity:1;}}
+@keyframes wing-left-rotate-sm{0%,65%{opacity:0;}55%{transform:translate(-1.5%,50px);}100%{opacity:1;}}
+.wing.bot-left.med{animation:wing-bot-left-rotate-med 1.25s linear;}
+.wing.bot-left.sm{animation:wing-bot-left-rotate-sm 1.5s linear;}
+@keyframes wing-bot-left-rotate-med{0%,55%{opacity:0;}45%{transform:translate(-1.5%,50px);}80%{opacity:1;}}
+@keyframes wing-bot-left-rotate-sm{0%,65%{opacity:0;}55%{transform:translate(-1.5%,50px);}100%{opacity:1;}}
+.wing.bot-right.med{animation:wing-bot-right-rotate-med 1.25s linear;}
+.wing.bot-right.sm{animation:wing-bot-right-rotate-sm 1.5s linear;}
+@keyframes wing-bot-right-rotate-med{0%,55%{opacity:0;}45%{transform:translate(1%,50px);}80%{opacity:1;}}
+@keyframes wing-bot-right-rotate-sm{0%,65%{opacity:0;}55%{transform:translate(1%,50px);}100%{opacity:1;}}
+
+.pave{animation:draw 1.5s linear;stroke-dashArray: 1300;stroke-dashoffset: 0;stroke:#002a46;}
+@keyframes draw{0%,90%{fill:transparent;}0%{stroke-dashoffset:1300;}}
+</style></defs>
+	<path class="wing left lg cls-1" d="M259 267l-88 1L402 421l15-49Z"/>
+	<path class="wing left med cls-1" d="M363 267l71 48-14 49L274 267h89Z"/>
+	<path class="wing left sm cls-1" d="M451 267H377l60 40Z"/>
+	<path class="wing bot-left lg cls-2" d="M487 486l40 33L300 677l32-82Z"/>
+	<path class="wing bot-left med cls-2" d="M441 448l39 33L339 579l31-79Z"/>
+	<path class="wing bot-left sm cls-2" d="M402 417l-27 69 60-41Z"/>
+	<path class="wing bot-right lg cls-2" d="M714 599l30 82L523 519l39-31Z"/>
+	<path class="wing bot-right med cls-2" d="M608 451l71 52 30 82L568 482Z"/>
+	<path class="wing bot-right sm cls-2" d="M650 420l23 69-58-43Z"/>
+	<path class="wing middle cls-2" d="M557 295s-15.7-13.9-31-14c-19.4-0.2-34.7 18.7-43 36s-14 47-14 47l-23 72 13 11 41-68-19 84 44 37 43-37-21-84 42 68 14-12L569 330s3.6-6 10-6 16 6 16 6-9.6-29.1-33-29c-28.6-49 30-49 30s8.4-18.6 21-28C542.7 296.6 557 295 557 295Z"/>
+	<path class="wing right sm cls-1" d="M639 381l73 1-63 41Z"/>
+	<path class="wing right med cls-1" d="M798 328l-75 48-87-2-12-50Z"/>
+	<path class="wing right lg cls-1" d="M608 267l276 4-74 48-189-3Z"/>
+	<path class="wing top sm cls-1" d="M586 197l24 70H567Z"/>
+	<path class="wing top med cls-1" d="M556 101l26 83-23 83H510Z"/>
+	<path class="wing top lg cls-1" d="M527 0l24 86L501 267H450Z"/>
+
+	<path class="pave period-4 cls-1" d="M1036 849l-6 38H979l7-38h50Z"/>
+	<path class="pave E cls-1" d="M990 735H850l-44 38L786 887H963l4-26H841l5-25H971l5-25H850l7-38 14-12h63l-4 25h50Z"/>
+	<path class="pave period-3 cls-1" d="M776 849l-7 38H719l6-38h51Z"/>
+	<path class="pave V cls-1" d="M603 735L581 861h38l44-38 15-88h51l-15 89-75 63H526l26-152h51Z"/>
+	<path class="pave period-2 cls-1" d="M516 849l-7 38H458l7-38h51Z"/>
+	<path class="pave A cls-1" d="M469 735L442 887H391l9-51H325l-9 51H265l20-114 45-38H469Zm-56 26-62-1-15 14-7 37h76Z"/>
+	<path class="pave period-1 cls-1" d="M255 849l-6 38H198l7-38h50Z"/>
+	<path class="pave P cls-1" d="M69 735H208l-11 63-44 38H90l4-25h38l14-13 7-37H90L75 774 56 887H5L25 773Z"/>
+</svg>
